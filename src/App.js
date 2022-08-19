@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import LongStory1 from './Components/LongStory/LongStory1';
+import LongStory2 from './Components/LongStory/LongStory2';
+import Navbar from './Components/Navbar';
+import { stories } from './data';
 function App() {
+  const longStory = stories.filter((item) => item["type"] === "long")
+  const shortStory = stories.filter((item) => item["type"] === "short")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="bg-black h-auto pb-12">
+      <Navbar></Navbar>
+      <div class="h-auto w-full ">
+      <LongStory1 data={longStory[0]}></LongStory1>
+      <LongStory2 data={longStory[1]}></LongStory2>
+      </div>
     </div>
   );
 }

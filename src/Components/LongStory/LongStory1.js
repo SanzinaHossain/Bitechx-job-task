@@ -15,7 +15,7 @@ const LongStory1 = ({data}) => {
                    <h1 class="t inline text-lg pl-2">{author.name}</h1>
                 </div>
                 <div class="pl-16">
-                <img class="h-6 w-6 inline" src="image/link1.png"></img>
+                <img class="h-5 inline" src="image/link1.png"></img>
                    <h1 class="t inline text-lg pl-2">{community.name}</h1>
 
                 </div>

@@ -1,5 +1,5 @@
 # Live Site Link
-
+- Click Here https://stunning-lollipop-ba712f.netlify.app/
 # How to run this project
 - Clone first git clone https://github.com/SanzinaHossain/Bitechx-job-task.git
 - cd bitechx-frontend-1

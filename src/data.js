@@ -68,7 +68,7 @@ export const stories = [
 export const users = [
   {
     name: 'Michael Scott',
-    profileImage: '/images/author.png',
+    profileImage: '/image/author.png',
     bio: "Don't ever, for any reason, do anything to anyone for any reason ever, no matter what",
     summary: {
       stories: 39,
@@ -77,7 +77,7 @@ export const users = [
   },
   {
     name: 'Pam Beesly',
-    profileImage: '/images/author.png',
+    profileImage: '/image/author.png',
     bio: "Don't ever, for any reason, do anything to anyone for any reason ever, no matter what",
     summary: {
       stories: 89,
@@ -86,7 +86,7 @@ export const users = [
   },
   {
     name: 'Michael Scott',
-    profileImage: '/images/author.png',
+    profileImage: '/image/author.png',
     bio: "Don't ever, for any reason, do anything to anyone for any reason ever, no matter what",
     summary: {
       stories: 39,
@@ -98,7 +98,7 @@ export const users = [
  export const communities = [
   {
     name: 'Josephite Language & Reading Club',
-    profileImage: '/images/community.png',
+    profileImage: '/image/community.png',
     bio: 'Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ',
     summary: {
       stories: 390,
@@ -107,7 +107,7 @@ export const users = [
   },
   {
     name: 'Travel for explore',
-    profileImage: '/images/community.png',
+    profileImage: '/image/community.png',
     bio: 'Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ',
     summary: {
       stories: 890,
@@ -116,7 +116,7 @@ export const users = [
   },
   {
     name: 'Josephite Language & Reading Club',
-    profileImage: '/images/community.png',
+    profileImage: '/image/community.png',
     bio: 'Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ',
     summary: {
       stories: 390,
